@@ -13,7 +13,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
 
     <title>Laravel</title>
-
+    <script src="/js/app.js"></script>
 </head>
 
 <body>
