@@ -37,3 +37,4 @@ Route::get('blogs/{post:slug}', [PostController::class, 'show']);
 
 // Admin Sayfası
 Route::get('admin-panel', [AdminController::class, 'index'])->middleware('admin');
+Route::delete('admin-panel/{post:slug}', [PostController::class, 'destroy']);

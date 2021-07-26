@@ -14,7 +14,7 @@
                 </div>
                 <p class="mb-1">{{ $post->excerpt }}</p>
                 <div class="d-flex w-100 justify-content-between">
-                    <small>Enes Terzi tarafından yazıldı</small>
+                    <small>{{ $post->user->name }} tarafından yazıldı</small>
                     <small>{{ $post->created_at->diffForHumans() }}</small>
                 </div>
 
