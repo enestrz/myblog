@@ -20,7 +20,11 @@
 
             </a>
         @endforeach
+        <div class="container-fluid text-center">
+            {{ $posts->links() }}
+        </div>
 
     </div>
+
 
 </x-layout>
